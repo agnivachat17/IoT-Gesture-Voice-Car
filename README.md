@@ -1,24 +1,64 @@
-# 🚗 IoT Gesture & Voice Controlled Car
+<h1 align="center">IoT Gesture & Voice Controlled Car</h1>
 
-An IoT-based smart vehicle controlled via **gesture (accelerometer)** and **voice commands**, built using Arduino and Bluetooth communication.
+<p align="center">
+  <b>Arduino-based smart vehicle controlled via accelerometer gestures and voice commands</b>
+</p>
 
-## ⚙️ Tech Stack
-- Arduino
-- Accelerometer (MPU6050)
-- Bluetooth Module (HC-05)
-- Embedded C
+<p align="center">
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Embedded%20C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IoT-000000?style=for-the-badge&logo=internetofthings&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bluetooth-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Sensors-MPU6050-informational?style=for-the-badge"/>
+</p>
 
-## 🚀 Features
-- Gesture-based movement control
-- Voice command integration
-- Real-time wireless control
+---
 
-## 🎥 Demo
-Basic working demonstration of the car:
+## Overview
+This project implements an IoT-based smart vehicle that can be controlled using **hand gestures (accelerometer)** and **voice commands**. It integrates hardware sensors with real-time software control to enable seamless physical interaction with a digital system.
+
+---
+
+## Tech Stack
+- Arduino  
+- Accelerometer (MPU6050)  
+- Bluetooth Module (HC-05)  
+- Embedded C  
+
+---
+
+## Features
+- Gesture-based movement using accelerometer input  
+- Voice command control via Bluetooth interface  
+- Real-time wireless communication  
+- Integration of hardware sensors with software logic  
+
+---
+
+## Demo
+Basic working demonstration of the system:
 
 [Watch Demo Video](https://drive.google.com/file/d/1pvvLkXKhZsDPaUif28rP9EINUDBoUvBN/view?usp=drivesdk)
 
 > Note: This is an early demo. The full project included both gesture and voice control modules.
 
-## 📁 Code
-- `GestureControlledCar.ino` → Main Arduino logic
+---
+
+## Project Structure
+```
+IoT-Gesture-Voice-Car/
+│── GestureControlledCar.ino   # Main Arduino code
+│── README.md
+```
+
+---
+
+## Key Highlights
+- Implemented real-time gesture recognition using accelerometer data  
+- Established wireless communication via Bluetooth (HC-05)  
+- Designed a system combining embedded hardware and control logic  
+
+---
+
+## Author
+**Agniva Chatterjee**
