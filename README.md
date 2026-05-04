@@ -35,6 +35,15 @@ This project implements an IoT-based smart vehicle that can be controlled using 
 
 ---
 
+## How It Works
+- Accelerometer captures hand tilt (X/Y axis values)  
+- Arduino processes sensor data and maps it to movement directions  
+- Commands are sent wirelessly via Bluetooth (HC-05)  
+- Motor driver executes movement (forward, backward, left, right)  
+- Voice commands are received via mobile app and transmitted over Bluetooth  
+
+---
+
 ## Demo
 Basic working demonstration of the system:
 
@@ -47,8 +56,8 @@ Basic working demonstration of the system:
 ## Project Structure
 ```
 IoT-Gesture-Voice-Car/
-│── GestureControlledCar.ino   # Main Arduino code
-│── README.md
+├── main.ino                 # Main Arduino code
+└── README.md
 ```
 
 ---
@@ -57,6 +66,13 @@ IoT-Gesture-Voice-Car/
 - Implemented real-time gesture recognition using accelerometer data  
 - Established wireless communication via Bluetooth (HC-05)  
 - Designed a system combining embedded hardware and control logic  
+
+---
+
+## Future Improvements
+- Add obstacle detection using ultrasonic sensors  
+- Improve gesture accuracy with filtering algorithms  
+- Develop a dedicated mobile app for enhanced control  
 
 ---
 
