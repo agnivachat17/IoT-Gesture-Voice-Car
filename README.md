@@ -10,19 +10,15 @@ An IoT-based smart vehicle controlled via **gesture (accelerometer)** and **voic
 
 ## 🚀 Features
 - Gesture-based movement control
-- Voice command integration via mobile
-- Real-time wireless control system
-
-## 🧠 Concepts Used
-- Sensor data processing
-- Serial communication (Bluetooth)
-- Embedded systems & real-time control
-
-## 📁 Files
-- `GestureControlledCar.ino` → Main Arduino code
+- Voice command integration
+- Real-time wireless control
 
 ## 🎥 Demo
-(Add your Google Drive / YouTube link here)
+Basic working demonstration of the car:
 
-## 🔗 Author
-Agniva Chatterjee
+[Watch Demo Video](https://drive.google.com/file/d/1pvvLkXKhZsDPaUif28rP9EINUDBoUvBN/view?usp=drivesdk)
+
+> Note: This is an early demo. The full project included both gesture and voice control modules.
+
+## 📁 Code
+- `GestureControlledCar.ino` → Main Arduino logic
